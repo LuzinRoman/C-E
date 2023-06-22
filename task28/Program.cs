@@ -4,22 +4,6 @@
 // 4 -> 24
 // 5 -> 120
 
-// Console.WriteLine("Введите положительное число: ");
-// int number = int.Parse(Console.ReadLine());
-
-
-// int Factorial(int number)
-// {while (number>=1)
-// {
-//   for (int i = 1; number>=1; i++);
-// return num;
-// }
-// }
-
-// int num = Factorial(int );
-// Console.WriteLine(num);
-
-
 Console.WriteLine("Введите целое положительное число");
 int number = Convert.ToInt32(Console.ReadLine());
 
