@@ -5,6 +5,7 @@
 // 4 -> 10
 // 8 -> 36
 
+Main();
 
 int Prompt(string message)
 {
@@ -23,9 +24,12 @@ for(int i = 1; i<=a; i++)
 return(sum);
 }
 
+void Main()
+{
 int number = Prompt("Введите число: ");
 int result = GetSum(number);
 Console.WriteLine("Сумма чисел от 1 до А = " + result);
+}
 // int sum = 0;
 
 
