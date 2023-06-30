@@ -22,7 +22,7 @@ int Prompt(string message)
     double x = - (b1 - b2) / (k1 - k2);
     double y = k1 * x + b1;
 
-    Console.WriteLine($"Координаты пересечения точек: x = {x}, y = {y}");
+    Console.WriteLine($"Координаты точки пересечения двух прямых: (x = {x}, y = {y})");
 
    
     
